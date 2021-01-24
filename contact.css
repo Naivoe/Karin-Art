@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f8ff;
+  ;
+  font-family: 'East Sea Dokdo', cursive;
+}
+
+/* NAV BAR ///////////////////////// */
+
+.zone {
+
+  cursor: pointer;
+  color: #FFF;
+  font-size: 2em;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0;
+  border-bottom: 2px solid #f8f8ff;
+  background-color: #f8f8ff;
+}
+
+.push {
+  margin-left: auto;
+}
+
+li {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 46pt;
+  font-style: italic;
+  font-weight: 200;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 400px;
+  font-size: 16pt;
+}
+
+.contact-title {
+  margin-top: 200px;
+  color: black;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 60px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 20px;
+  font-family: 'Open Sans Condensed';
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 16px;
+  resize: none;
+  font-family: sans-serif;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.center {
+  margin-left: auto;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2em;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+  font-family: 'Open Sans Condensed';
+}
+
+footer:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+@media screen and (max-width:600px) {
+  .main-nav {
+    font-size: 0.7em;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .form-control {
+    width: 300px;
+  }
+}
